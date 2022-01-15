@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    float: left;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    font-size: 17px;
+    padding: 14px 16px;
+    background-color: rgb(204, 202, 202);
+}
+.tab-container{
+    text-align: center;
+    margin: 0;
+}
+.link-container{
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+}
+button:hover{
+    background-color: #777;
+}
+.tabcontent{
+    display: none;
+    text-align: center;
+    height: 300px;
+    color: white;
+}
+.activel,.activel:hover{
+    background-color: red;
+}
+.activep,.activep:hover{
+    background-color: green;
+}
+.activet,.activet:hover{
+    background-color: blue;
+}
+.activeo,.activeo:hover{
+    background-color: orange;
+}
+.tabcontent{
+    padding-top: 170px;
+    
+}
+#london{background-color: red;}
+#paris{background-color: green;}
+#tokyo{background-color: blue;}
+#oslo{background-color: orange;}

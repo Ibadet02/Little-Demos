@@ -1,0 +1,32 @@
+.tab{
+    float: left;
+    border: 1px solid #ccc;
+    width: 28%;
+    height: 300px;
+    background-color: #f1f1f1;
+}
+.tablinks{
+    display: block;
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+    padding: 22px 16px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+}
+.tablinks:hover{
+    background-color: #ddd;
+}
+.active{
+    background-color: #ccc;
+}
+.tabcontent{
+    border: 1px solid #ccc;
+    height: 300px;
+    padding: 0 12px;
+    float: left;
+    width: 70%;
+    border-left: none;
+    display: none;
+}

@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.v-icon-bar{
+    width: 90px;
+    background-color: #555;
+    margin-top: 10px;
+}
+.v-icon-bar a{
+    display: block;
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+    padding: 16px;
+    transition: all 0.3s ease;
+}
+.v-icon-bar a:hover{
+    background-color: #000;
+}
+.active{
+    background-color: #04AA6D;
+}
+.h-icon-bar{
+    width: 100%;
+    background-color: #555;
+    overflow: auto; /*due to float */
+    margin-top: 10px;
+}
+.h-icon-bar a{
+    float: left;
+    font-size: 36px;
+    width: 20%;
+    padding: 12px 0;
+    text-align: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+.h-icon-bar a:hover{
+    background-color: #000;
+}
+.v-icon-bar-container{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    overflow: auto;
+}
+.h-icon-bar-container{
+    width: 75%;
+    float: right;
+    margin-top: 10px;
+    overflow: auto;
+}

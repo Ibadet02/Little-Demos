@@ -1,0 +1,39 @@
+.container{
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    height: 100%;
+    width: 0%;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    transition: 0.5s;
+    overflow-x: hidden;
+}
+.overlay-content{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+.overlay-content a{
+    display: block;
+    text-decoration: none;
+    color: #818181;
+    font-size: 30px;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+.overlay-content a:hover, .overlay-content a:focus{
+    color: #fff;
+}
+.cls-button{
+    text-decoration: none;
+    font-size: 70px;
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    color: #aaa;
+}
+.cls-button:hover{
+    color: #fff;
+}
